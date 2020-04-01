@@ -15,7 +15,7 @@ class Dog
   end
   
   def print_all
-    each dog in @all
+    @@all.each do | dog |
       puts dog
     end
   end
